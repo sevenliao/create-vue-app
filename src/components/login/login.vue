@@ -22,7 +22,6 @@ export default {
       let username = this.username;
       let password = this.password;
 
-
       if(username==''&&password==''){
         this.$toasted.show("用户名和密码不为空");
         return
